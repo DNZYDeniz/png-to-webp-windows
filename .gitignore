@@ -1,0 +1,11 @@
+# Generated WebP output (optional — remove this line if you want to commit samples)
+converted/
+
+# User PNGs in input/ (keep folder via .gitkeep only)
+input/*
+!input/.gitkeep
+
+# OS / editor
+Thumbs.db
+Desktop.ini
+*.tmp
