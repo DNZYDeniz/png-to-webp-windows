@@ -9,3 +9,8 @@ input/*
 Thumbs.db
 Desktop.ini
 *.tmp
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
