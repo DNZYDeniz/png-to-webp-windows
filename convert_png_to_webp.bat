@@ -12,14 +12,7 @@ set "CWEBP=%HERE%\tools\bin\cwebp.exe"
 set "INDIR=%HERE%\input"
 set "OUTDIR=%HERE%\converted"
 
-rem --- Target size mode (default, good for ~50-100 KB per file) ---
-rem Approximate target per image in KB (cwebp -size). Examples:
-rem   set WEBP_TARGET_KB=55   (smaller, more detail loss)
-rem   set WEBP_TARGET_KB=75   (default)
-rem   set WEBP_TARGET_KB=95   (larger, usually cleaner)
 if not defined WEBP_TARGET_KB set "WEBP_TARGET_KB=75"
-
-rem --- Fixed quality mode: set WEBP_USE_QUALITY=1 to use constant -q ---
 if not defined WEBP_QUALITY set "WEBP_QUALITY=78"
 
 if not exist "%CWEBP%" (
@@ -27,10 +20,8 @@ if not exist "%CWEBP%" (
     echo [ERROR] cwebp not found:
     echo         %CWEBP%
     echo.
-    echo Fix: download the official package:
-    echo   https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0-windows-x64.zip
-    echo Copy bin\cwebp.exe from the ZIP to:
-    echo   tools\bin\cwebp.exe
+    echo Download: https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0-windows-x64.zip
+    echo Copy bin\cwebp.exe to: tools\bin\cwebp.exe
     echo.
     pause
     exit /b 1
