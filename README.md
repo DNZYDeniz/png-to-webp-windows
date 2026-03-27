@@ -21,6 +21,10 @@ Everything is **lightweight**, **fast**, and **meant for people who want smaller
 - Optional **GUI** for quicker size / quality tweaks  
 - Fast conversion, strong size reduction, minimal visible quality loss  
 
+### Desktop GUI preview
+
+![Desktop GUI — PNG to WebP (CustomTkinter)](gui/pngwebp.png)
+
 ---
 
 ## What it does
