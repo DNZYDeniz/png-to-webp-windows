@@ -2,7 +2,7 @@
 
 ## Project intro
 
-This is a simple **PNG → WebP** converter that can shrink something like a **2 MB PNG down to ~70 KB** (sometimes even smaller), while keeping the picture looking almost the same.
+This is a simple **PNG → WebP** converter that can shrink something like a **10 MB PNG down to ~100 KB** (sometimes even smaller), while keeping the picture looking almost the same.
 
 **Repository:** [github.com/DNZYDeniz/png-to-webp-windows](https://github.com/DNZYDeniz/png-to-webp-windows)
 
